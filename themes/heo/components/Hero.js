@@ -366,9 +366,9 @@ function TodayCard({ cRef, siteInfo }) {
             <PlusSmall
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
-            <div id="more" className="select-none">
+            {/* <div id="more" className="select-none">
               更多推荐
-            </div>
+            </div> */}
           </div>
         </div>
         <div
