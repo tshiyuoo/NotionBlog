@@ -357,7 +357,7 @@ function TodayCard({ cRef, siteInfo }) {
             <div className="text-xs font-light">{siteConfig('HEO_HERO_TITLE_4', null, CONFIG)}</div>
             <div className="text-3xl font-bold">{siteConfig('HEO_HERO_TITLE_5', null, CONFIG)}</div>
           </div>
-          <div
+          {/* <div
             onClick={handleClickMore}
             className={`'${
               isCoverUp ? '' : 'hidden pointer-events-none '
@@ -366,10 +366,10 @@ function TodayCard({ cRef, siteInfo }) {
             <PlusSmall
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
-            {/* <div id="more" className="select-none">
+            <div id="more" className="select-none">
               更多推荐
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </div>
         <div
           id="today-card-cover"
